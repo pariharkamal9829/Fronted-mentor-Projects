@@ -1,0 +1,2 @@
+# qr-code-component-main
+ 
