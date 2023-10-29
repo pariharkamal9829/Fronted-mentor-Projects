@@ -1,0 +1,37 @@
+
+
+.card{
+    display: flex;
+    margin: 100px auto;
+    width: 70%;
+    
+  }
+  
+.column1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-bottom-left-radius:  10px;
+    border-top-left-radius: 10px;
+}
+.column2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn{
+    font-size: 16px;
+    border: none;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+.heading{
+    color: white;
+}
