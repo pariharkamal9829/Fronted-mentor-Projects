@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+}
+
+p{
+    color: grey;
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 30px auto;
+    margin-top: 50px;
+    
+}
+.btn-mac{
+background-color:hsl(233, 100%, 69%);
+}
+.btn-ios{
+background-color: hsl(171, 66%, 44%);
+
+}
+#comp{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.div8{
+    margin: 50px auto;
+}
+.div2{
+margin: 100px auto;
+}
+.div3{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-items: center;
+margin: 50px auto;
+}
+.div4{
+    margin: 50px auto;
+
+}
+.div5{
+    margin: 50px auto;
+
+}
+.div6{
+display: flex;
+margin: 100px auto;
+
+}
+.div7{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 100px auto;
+
+}
+
+.footer{
+
+    background-color:  lightgrey;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
