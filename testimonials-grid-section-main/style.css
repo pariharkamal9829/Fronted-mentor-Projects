@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    text-align: left;
+}
+.hero{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color:hsl(263, 55%, 52%);
+    border: 5px;
+}
+
+
+
+
+
+.card{
+    display:grid;
+
+    .head{
+        display: flex;
+        gap: 15px;
+        color: hsl(0, 0%, 100%);
+        
+        .head1{
+            margin-top: 0px;
+            font-weight: bold;
+        }
+        .head2{
+            margin-top: -12px;
+            opacity: 50%;
+        }
+    }
+
+    .h1{
+        color: hsl(0, 0%, 100%);
+        margin-top: -5px;
+    }
+    .text{
+        color: hsl(0, 0%, 100%);
+        opacity: 50%;
+        font-size: 13px;
+
+    }
+    .h2{
+        color: black;
+        margin-top: -5px;
+
+    }
+    .text2{
+        color: hsl(0, 0%, 0%);
+        opacity: 50%;
+        font-size: 13px;
+        
+    }
+    
+
+.card1{
+    background-color: hsl(263, 55%, 52%);
+    padding: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    grid-row: 1;
+    width: 550px;
+    padding-bottom: 0px;
+    
+}
+
+.card2{
+    background-color: hsl(217, 19%, 35%);
+    padding: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    grid-row: 1;
+    width: 200px;
+    
+
+}
+.card3{
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+
+}
+.card4{
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 200px;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 20px;
+
+
+}
+.card5{
+    background-color: hsl(219, 29%, 14%);
+    padding: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 550px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    margin-top: 20px;
+
+}
+}
