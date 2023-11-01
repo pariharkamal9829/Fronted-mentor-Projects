@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+
+
+header{
+  color: hsl(0, 0%, 75%);
+  .nav-link{
+    margin-top: -30px;
+    margin-right: 20px;
+    border: none;
+   
+  }
+}
+.btn{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    font-size: 14px;
+}
+
+
+.logo{
+text-align: right;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    color: lightgrey;
+}
+a {
+    border: none;
+    color: hsl(0, 0%, 75%);
+}
+.email{
+    height: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+    opacity: 50%;
+    color:hsl(0, 0%, 75%) ;
+    margin-top: 20px;
+}
+
+.div1{
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 40px;
+   .h1{
+    margin-top: 150px;
+    width: 80%;
+   }
+   .p{
+    margin-top: 40px;
+    width: 80%;
+   }
+}
+.div2{
+    display: flex;
+    background-color: hsl(240, 75%, 98%);
+    margin-top: -10px;
+    padding-left: 40px;
+    .card{
+        text-align: left;
+        box-shadow: 1px 1px 1px 2px hsl(0, 0%, 75%);
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        padding-left: 15px;
+        padding-top: 10px;
+        .hero{
+            display: flex;
+            .img{
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                margin:0px 15px ;
+            }
+            .head{
+                margin-top: -15px;
+                
+                .head1{
+                color: black;
+                font-weight: bold;
+
+                     }
+                .head2{
+                margin-top: -15px;
+                    }
+                }
+        }
+    }
+}
+
+.div4{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(0, 0%, 75%);
+    column-gap: 30px;
+
+    #e{
+    margin-top: 20px;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:  hsl(243, 87%, 12%);
+    color: hsl(0, 0%, 75%);
+    .link{
+        display: inline;
+        margin: 80px 0px;
+    }
+    .icon{
+        margin: 80px 0px;
+    }
+    .logo{
+        margin: 50px 0px;
+        .contact{
+            text-align: left;
+            margin-top: 10px;
+            padding: 0px;
+        }
+    }
+}
