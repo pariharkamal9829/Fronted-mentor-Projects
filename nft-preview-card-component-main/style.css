@@ -1,0 +1,61 @@
+body{
+    margin: 100px auto 0px auto;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+.card{
+    height: 300px;
+    width: 300px;
+    margin: auto;  
+    .main{
+        background-color:hsl(216, 50%, 16%) ;
+        border-radius: 10px;
+        color:  hsl(0, 0%, 100%);
+        padding: 20px;
+
+        .price{
+            /* display: flex; */
+            justify-content: space-around;
+            .p1{
+                color:  hsl(178, 100%, 50%);
+                margin-top: -2px;
+            }
+            .p2{
+                color: hsl(215, 51%, 70%);
+                margin-top: -2px;
+
+            }
+        }
+        .avatar{
+            display: flex;
+            gap: 10px;
+            .text{
+                display: flex;
+                margin-top: -10px;
+                .p1{
+                    color: hsl(215, 51%, 70%);
+                    margin-right: 10px;
+                }
+                .p2{
+                    color: white;
+                }
+            }
+        }
+    }
+     
+}
+#main-img{
+    height: 100%;
+    width: 100%;
+}
+
+.price{
+    display: flex;
+
+}
+
+#avatar{
+    border-radius: 50%;
+    border: 2px solid  white;
+}
+
