@@ -1,0 +1,84 @@
+/* ## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+body{
+    background-color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    
+}
+#hero{
+    height: 200px;
+    width: 320px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.main{
+    max-width: 320px;
+    max-height: 800px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+
+    
+
+    .btn{
+        display: inline;
+        justify-content: space;
+        padding: 10px 50px 10px 50px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        width: 280px;
+        background-color: hsl(224, 23%, 55%);
+        margin-bottom: 10px;
+        box-shadow: 1px 1px 5px lightgrey;
+        
+    }
+    .btn:hover{
+        background-color:hsl(245, 75%, 52%) ;
+        
+    }
+
+    .price{
+        display: flex;
+        border-radius: 10px;
+        background-color: hsl(225, 100%, 98%);
+        margin: 20px ;
+        .icon{
+           padding:10px;
+           padding-top: 15px;
+        }
+        .p1{
+            margin-left: 5px;
+            font-weight: bold;
+        }
+        .p2{
+            margin-top: -10px;
+            color:hsl(224, 23%, 55%) ;
+        } 
+        .change{
+            margin-left: 20px;
+            font-weight: bold;
+            margin-top: 25px;
+        }
+        .change:hover{
+            opacity: 50%;
+        }
+    }
+
+}
