@@ -18,6 +18,8 @@
 - White: hsl(0, 0%, 100%) */
 
 
+@import url(nav.css);
+
 
 body{
     font-size: 14px;
