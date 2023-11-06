@@ -140,9 +140,10 @@ a{
      .sec4{
         margin: 0 20px;
         background-color:  hsl(217, 28%, 15%);
-        border-radius: 10px;        
+        border-radius: 10px; 
+              
     }
-
+    
 
 
 /* for mobile screens */
@@ -174,9 +175,11 @@ a{
     }
     .sec4{
         width: 80%;
-        margin: 20px auto;
+        margin: -200px auto auto auto;
         padding: 20px 10px;
         display: block;
+        position: relative;
+        top: 270px;
         
         #head1{
             font-size: 18px;
@@ -223,8 +226,14 @@ a{
     margin: 0px auto;
     padding:30px 50px ;
     position: relative;
-    top: 150px;
+    top: 70px;
     
+    #head1{
+        margin: 20px auto;
+    }
+    #head2{
+        margin: 20px auto;
+    }
 }
     
 }
