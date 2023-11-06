@@ -33,7 +33,7 @@ a{
     transition: 0.3s ease;
 }
 .nav-link:hover{
-    color: blue;
+    color: white;
 }
 
 /* css for hamburger menu */
