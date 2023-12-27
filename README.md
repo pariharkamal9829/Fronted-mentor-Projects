@@ -1,3 +1,3 @@
-bsgg# Fronted-mentor-Projects
+bgg# Fronted-mentor-Projects
 fronted mentor projects
 html css and js projects 
