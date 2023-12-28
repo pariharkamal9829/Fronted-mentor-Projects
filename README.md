@@ -1,3 +1,3 @@
-ggguw# Fronted-mentor-Projects
+gggu# Fronted-mentor-Projects
 fronted mentor projects
 html css and js projects 
