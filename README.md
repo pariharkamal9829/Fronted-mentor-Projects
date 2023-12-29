@@ -1,3 +1,3 @@
-fbjj# Fronted-mentor-Projects
+fbj# Fronted-mentor-Projects
 fronted mentor projects
 html css and js projects 
