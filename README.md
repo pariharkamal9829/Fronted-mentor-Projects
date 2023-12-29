@@ -1,3 +1,3 @@
-dfhjj# Fronted-mentor-Projects
+dfhj# Fronted-mentor-Projects
 fronted mentor projects
 html css and js projects 
