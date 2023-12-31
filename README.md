@@ -1,3 +1,3 @@
-cghh# Fronted-mentor-Projects
+cg# Fronted-mentor-Projects
 fronted mentor projects
 html css and js projects 
