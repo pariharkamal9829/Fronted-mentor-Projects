@@ -1,3 +1,3 @@
-hjjhbgd# Fronted-mentor-Projects
+hjjhb# Fronted-mentor-Projects
 fronted mentor projects
 html css and js projects 
